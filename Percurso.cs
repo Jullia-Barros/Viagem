@@ -48,9 +48,14 @@ namespace Viagem
    public String listarPercurso()
    {
      {
+<<<<<<< Updated upstream
          return "Km Percorrida"+ KmPercorrida + "\n
          valor do Combustivel" + valorCombustivel + 
          "\nvalor do Pedagio" +valorPedagio;
+=======
+         return "Km Percorrida"+ KmPercorrida +"\nvalor do Combustivel" + valorCombustivel \n
+         valor do Pedagio :" +valorPedagio;
+>>>>>>> Stashed changes
      }
 
    }
